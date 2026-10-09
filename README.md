@@ -25,7 +25,7 @@ The name reflects the aim of a fast approach to moving packages across cities, r
 - Ramón Álvarez ([ralvarezdev](https://github.com/ralvarezdev)) — Database Modeler and Programmer.
 - Rebecca Bracho ([Beckarby](https://github.com/Beckarby)) — Database Modeler.
 - Jesús Meléndez ([JeJaMel](https://github.com/JeJaMel)) — Database Administrator.
-- Javier Pérez ([Kaucrow](https://github.com/Kaucrow)) — Programmer. Rest in peace, dear friend.
+- Javier Pérez ([Kaucrow](https://github.com/Kaucrow)) — Programmer. Forever remembered by the team. Rest in peace, dear friend.
 
 ## Requirements
 
