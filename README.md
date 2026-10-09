@@ -1,4 +1,4 @@
-# Rush Cargo
+# uru-databases-1-rush-cargo
 
 Source code and documentation for Rush Cargo, a university database project by students of Universidad Rafael Urdaneta in Maracaibo, Venezuela. Rush Cargo is a fictional company that handles national and international shipping, including ocean and air freight.
 
