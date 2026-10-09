@@ -1,46 +1,51 @@
-This repository contains the source code and documentation for Rush Cargo Application, a project developed by some students from Universidad Rafael Urdaneta in Maracaibo, Venezuela. Rush Cargo is a project for a fictional company that handles national and international shippings, including ocean and air freight.<br><br>
+# Rush Cargo
 
-## Table of Contents
-- [About Rush Cargo](#about-rush-cargo)
-- [Documents](#documents)
-  - [Development Team](#development-team)
-- [Requirements](#requirements)
-  - [Week 1](#week-1)
-  - [Week 2](#week-2)
-- [Note](#note)<br><br>
+Source code and documentation for Rush Cargo, a university database project by students of Universidad Rafael Urdaneta in Maracaibo, Venezuela. Rush Cargo is a fictional company that handles national and international shipping, including ocean and air freight.
 
-## About Rush Cargo
-The name "Rush Cargo" symbolizes the project's aim to create a fast approach to handle packages throughout cities, regions and countries.
+**Note:** This repository is archived and read-only. Rush Cargo is not a registered trademark and was built for learning purposes only, not for profit.
 
-Aside from this, Rush Cargo also has some interesting easter eggs:
+The name reflects the aim of a fast approach to moving packages across cities, regions and countries. "Rush" also hints at Rust, the main language of the application, and "Cargo" at the Rust package manager.
 
-1. Rush: Besides its meaning related to fast shippings, Rush is also a reference to the main programming language that powers this application, Rust.
+---
 
-2. Cargo: This word is also a reference to the Rust ecosystem, this time to the Rust package manager.
+## Project structure
+
+- **`rushcargo-app/`** — Rust application (`Cargo.toml`, `migrations/`, `src/`).
+- **`rushcargo-insiders/`** — Python app (`main.py`, `app.py`, `lib/`, `requirements.txt`, `example.env`).
+- **`setup/`** — SQL scripts: `constraints.sql`, `views.sql`, `final.sql`.
+- **`model/`** — entity-relationship (MER) and relational (MR) model diagrams.
+- **`AllCars/`** — additional `model` and `setup` files.
 
 ## Documents
-- Roadmap <a href="https://docs.google.com/document/d/1MupYuTTxXraIwLAzVZR1WUXree8AxoY6v4uSUJRZCWk/edit?usp=sharing">(Spanish Version)</a>.
 
-### Development Team
-- Ramón Álvarez <a href="https://github.com/ralvarezdev">(ralvarezdev)</a>. Database Modeler and Programmer.
-- Rebecca Bracho <a href="https://github.com/Beckarby">(Beckarby)</a>. Database Modeler.
-- Jesús Meléndez <a href="https://github.com/JeJaMel">(JeJaMel)</a>. Database Administrator.
-- Javier Pérez <a href="https://github.com/Kaucrow">(Kaucrow)</a>. Programmer.
+- Roadmap ([Spanish version](https://docs.google.com/document/d/1MupYuTTxXraIwLAzVZR1WUXree8AxoY6v4uSUJRZCWk/edit?usp=sharing)).
+
+## Development team
+
+- Ramón Álvarez ([ralvarezdev](https://github.com/ralvarezdev)) — Database Modeler and Programmer.
+- Rebecca Bracho ([Beckarby](https://github.com/Beckarby)) — Database Modeler.
+- Jesús Meléndez ([JeJaMel](https://github.com/JeJaMel)) — Database Administrator.
+- Javier Pérez ([Kaucrow](https://github.com/Kaucrow)) — Programmer. Rest in peace, dear friend.
 
 ## Requirements
 
 ### Week 1
-- Create, delete and modify shippings that haven't being moved from their initial location.
-- Display information from packages that have already being moved from their intial location.
-- Display shipping statistics from truck drivers.
-- Register locations where packages have traversed.
-- Display packages that will be carried by a vehicle at a given day.
+
+- Create, delete and modify shipments that have not yet left their initial location.
+- Display information about packages that have already left their initial location.
+- Display shipping statistics for truck drivers.
+- Register the locations packages have traversed.
+- Display the packages a vehicle will carry on a given day.
 
 ### Week 2
-- Package administrator can create its own routes, and select which drivers will carry which packages at specific locations.
-- Display packages content which were shipped by a provider to a retail store. Show statistics.
-- Clients can have one locker at each country, which can hold a maximum amount of 5 packages at a time per locker.
-- Those packages weight sum must be less or equal to 200kg. 
 
-## Note
-Rush Cargo is not a registered trademark and hasn't being built for any profits in mind. It's only for learning purposes.
+- Package administrators can create their own routes and select which drivers carry which packages at specific locations.
+- Display the contents of packages shipped by a provider to a retail store, with statistics.
+- Clients can have one locker in each country, holding at most 5 packages at a time.
+- The total weight of the packages in a locker must be 200 kg or less.
+
+---
+
+## License
+
+GNU General Public License v3.0. See [`LICENSE`](LICENSE).
